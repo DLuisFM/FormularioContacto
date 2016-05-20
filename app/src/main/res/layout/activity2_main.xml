@@ -15,11 +15,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Nombre"
         android:id="@+id/tnombre"
+        android:textStyle="bold"
+        android:layout_marginTop="54dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textStyle="bold"
-        android:layout_marginBottom="@dimen/bottom"/>
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="match_parent"
@@ -59,8 +59,9 @@
         android:layout_height="wrap_content"
         android:text="@string/editar"
         android:id="@+id/editar"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/tdescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -71,4 +72,13 @@
         android:layout_below="@+id/tcorreo"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/confirma"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
